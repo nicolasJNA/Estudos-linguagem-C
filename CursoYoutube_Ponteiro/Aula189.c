@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-// Vetor é sempre um ponteiro??? 
+// Vetor é sempre um ponteiro??? Aritmetrica de ponteiros
+
 void imprimirVet(int vet[], int tam){
     int i;
     for(i =0; i< tam; i++)
