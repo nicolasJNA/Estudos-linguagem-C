@@ -5,6 +5,7 @@
 typedef struct{
     int mes,dia,ano;
 }Data;
+
 void imprimirData(Data *x){
     printf("\n%d/%d/%d\n", x->dia,x->mes,x->ano);
     x->ano = 2001;

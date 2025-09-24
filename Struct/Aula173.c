@@ -25,7 +25,6 @@ int main (){
     printf("Informe a sua idade: ");
     scanf("%d",&aluno.idade);
     //while(getchar() != '\n');
-    
 getchar();
 
     printf("Informe a nseu sexo: "); 
