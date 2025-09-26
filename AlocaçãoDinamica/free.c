@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<time.h>
-//  Aula 199: Como alocar um vetor dinamico
-
+//  Aula 202: liberação de memoria 
+// uso da função free para liberar uma memoria alocada
 int main() {
     int *vet, tam,i;
     srand(time(NULL));
@@ -20,6 +20,10 @@ if(vet){
 }else{
     printf("\nErro ao alocar memoria");
 }
-
+free(vet);
+printf("\n\nMemoria liberada: ");
+for(i = 0; i < tam; i++){
+        printf("%d ", *(vet + i));
+    }
     return 0;
 }
