@@ -11,7 +11,7 @@ int main() {
     printf("\tConteudo de a: %d", a);
     printf("\nEndereço de B: %p\tconteudo de B: %p", &b,b);
     printf("\nConteudo apontado por B: %d\n", *b);
-     printf("\nEndereço de c: %p\tconteudo de c: %p", &c,c);
-     printf("\nConteudo apontado por c: %d\n", **c);
+    printf("\nEndereço de c: %p\tconteudo de c: %p", &c,c);
+    printf("\nConteudo apontado por c: %d\n", **c);
     return 0;
 }

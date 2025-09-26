@@ -6,6 +6,11 @@ typedef struct{
     int mes,dia,ano;
 }Data;
 
+typedef struct{
+    Data nascimento;
+    char nome[20];
+}Pessoa;
+
 void imprimirData(Data *x){
     printf("\n%d/%d/%d\n", x->dia,x->mes,x->ano);
     x->ano = 2001;
