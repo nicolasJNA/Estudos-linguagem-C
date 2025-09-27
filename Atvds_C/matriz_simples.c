@@ -14,7 +14,7 @@ int main() {
         scanf("%s%f", &nome[i], &notas[i]);
     }
      for (int i = 0; i < 3; i++){
-        printf("%s  %2.f\n",nome[i], notas[i]);    
+        printf("%s\t%2.f\n",nome[i], notas[i]);    
     }
     return 0;
 }
